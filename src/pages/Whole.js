@@ -12,6 +12,7 @@ import { FaPython } from "react-icons/fa";
 import { FaJava,FaDatabase } from "react-icons/fa";
 import { Link as ScrollLink } from 'react-scroll';
 //import {Link} from "react-router-dom";
+//import {Link} from "react-router-dom";
 
 function Whole(){
 
