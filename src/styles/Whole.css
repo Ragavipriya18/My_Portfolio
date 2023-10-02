@@ -4,7 +4,7 @@
 #navbar {
     position: fixed;
     width: 100%;
-    background-color: white; /* Set your desired background color */
+    background-color: white;
     z-index: 1000;
   }
   
@@ -36,7 +36,6 @@
 
 
 .list_nav ul li .active {
-    /* Add your active link styles here */
     font-weight: bold;
     color:  rgb(230, 73, 125);
 }
@@ -48,7 +47,7 @@
 /*Home*/
 #home{
     height:100vh;
-    background: url('C:\Users\User\Desktop\Portfolio\my_portfolio\public\images\profile3.jpg');
+    background: url(C:\Users\User\Desktop\Projects\Portfolio\my_portfolio\public\images\profile3.jpg);
     background-size:cover;
     position:relative;
 }
@@ -89,9 +88,7 @@ body{
     font-size: 18px;
     
 }
-/*body{
-    background-color: rgb(231, 235, 235);
-}*/
+
 
 /*About*/
 
@@ -520,7 +517,7 @@ form{
     color: black;
     transform: scale(1.1);
 }
-/* Add the focus styles to the input fields */
+
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus,

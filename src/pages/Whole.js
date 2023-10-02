@@ -3,7 +3,6 @@ import '../styles/Whole.css';
 import {Link} from 'react-router-dom';
 import {FaGithub, FaInstagramSquare, FaLinkedin} from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-//import { NavLink } from 'react-router-dom';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { BiLogoCss3 } from "react-icons/bi";
 import { DiJavascript } from "react-icons/di";
@@ -11,15 +10,12 @@ import {  DiReact, DiMysql } from "react-icons/di";
 import { FaPython } from "react-icons/fa";
 import { FaJava,FaDatabase } from "react-icons/fa";
 import { Link as ScrollLink } from 'react-scroll';
-//import {Link} from "react-router-dom";
-//import {Link} from "react-router-dom";
+
 
 function Whole(){
 
    
-    const [activeLink, setActiveLink] = useState('home'); // Initialize with the 'home' link as active
-
-    // Function to handle link click and update the active link
+    const [activeLink, setActiveLink] = useState('home');
     const handleLinkClick = (link) => {
       setActiveLink(link);
     };
@@ -56,7 +52,7 @@ function Whole(){
       alert('Please enter a valid phone number.');
       return;
     }
-    // Send the form data to your backend or perform any other actions
+
     window.alert("Form Submitted!!");
     console.log('Form submitted:', { name, email, phone, message });
   };
@@ -67,7 +63,7 @@ function Whole(){
   };
 
   const validatePhone = (phone) => {
-    const phoneRegex = /^\d{10}$/; // Assumes a 10-digit phone number
+    const phoneRegex = /^\d{10}$/; 
     return phoneRegex.test(phone);
   };
 
@@ -78,7 +74,7 @@ function Whole(){
         to={to}
         spy={true}
         smooth={true}
-        offset={-100} // Adjust this offset as needed to account for your fixed navbar height
+        offset={-100} 
         duration={400}
         className="scroll-link"
       >
@@ -145,7 +141,7 @@ function Whole(){
                   CONTACT
                 </ScrollTo>
               </li>    
-                    {/*<li><NavLink to="/Contact" activeClassName="active" className="l5">CONTACT</NavLink></li>*/}
+                   
                 </ul>
             </div>
             </div>
