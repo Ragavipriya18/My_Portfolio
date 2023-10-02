@@ -45,12 +45,6 @@
 
 
 /*Home*/
-#home{
-    height:100vh;
-    background: url(C:\Users\User\Desktop\Projects\Portfolio\my_portfolio\public\images\profile3.jpg);
-    background-size:cover;
-    position:relative;
-}
 .main_home{
     display: flex;
     padding-top: 100px;
